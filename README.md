@@ -13,12 +13,9 @@ Difficulty	Solved
 💡 Approaches I Use
 Brute Force → understand the problem first
 HashMap → for fast O(1) lookups
-Two Pointers → for array/string problems
-Sliding Window → for subarray problems
-🛠️ Language
-All solutions are written in:
 
-Show Image
+🛠️ Language
+c++
 
 📅 Consistency Goal
 ✅ Solve at least 1 problem per day
