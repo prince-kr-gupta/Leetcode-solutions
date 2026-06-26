@@ -3,7 +3,6 @@
 A collection of my LeetCode problem solutions written in C++, organized by difficulty. Updated daily as I practice and improve.
 
 📊 Progress
-Show Image Show Image Show Image
 
 Difficulty	Solved
 🟢 Easy	5
