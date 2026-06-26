@@ -1,0 +1,21 @@
+class Solution {
+public:
+    bool isPerfectSquare(int num) {
+         long long square;
+         int ans = 1;
+         
+        for(int i=1;i<=num;i++) {
+            square = (long long)i*i;
+            if(square <= num){
+                ans = square;
+            }
+            else{
+               break;
+            }
+           
+        }
+         
+        return ans == num;
+        
+    }
+};
