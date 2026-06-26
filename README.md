@@ -6,28 +6,9 @@ A collection of my LeetCode problem solutions written in C++, organized by diffi
 Show Image Show Image Show Image
 
 Difficulty	Solved
-🟢 Easy	2
+🟢 Easy	5
 🟡 Medium	0
 🔴 Hard	0
-Total	2
-📁 Folder Structure
-LeetCode-Solutions/
-├── Easy/
-│   ├── 001_two_sum.cpp
-│   ├── 009_palindrome_number.cpp
-├── Medium/
-├── Hard/
-└── README.md
-🗂️ Solutions
-🟢 Easy
-#	Problem	Solution	Topics
-1	Two Sum	C++	Array, HashMap
-9	Palindrome Number	C++	Math
-🟡 Medium
-
-
-🔴 Hard
-
 
 💡 Approaches I Use
 Brute Force → understand the problem first
