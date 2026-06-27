@@ -1,0 +1,17 @@
+class Solution {
+public:
+    bool checkPerfectNumber(int num) {
+        long long ans = 0;
+        long long perfect = num;
+        for(int i = 1;i<num;i++) {
+            if(num%i == 0){
+                ans += i;
+                if(ans == perfect) {
+                  
+
+                }
+            }
+        }
+        return ans==num;
+    }
+};
