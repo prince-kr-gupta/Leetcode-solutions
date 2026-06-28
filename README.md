@@ -3,10 +3,9 @@
 A collection of my LeetCode problem solutions written in C++, organized by difficulty. Updated daily as I practice and improve.
 
 📊 Progress
-
 ---
 Difficulty	Solved
-🟢 Easy	7
+🟢 Easy	8
 🟡 Medium	2
 🔴 Hard	0
 ---
