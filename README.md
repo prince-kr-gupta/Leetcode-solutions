@@ -5,7 +5,7 @@ A collection of my LeetCode problem solutions written in C++, organized by diffi
 📊 Progress
 ---
 Difficulty	Solved
-🟢 Easy	8
+🟢 Easy	9
 🟡 Medium	2
 🔴 Hard	0
 ---
