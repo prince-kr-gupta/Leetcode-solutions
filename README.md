@@ -5,9 +5,9 @@ A collection of my LeetCode problem solutions written in C++, organized by diffi
 📊 Progress
 ---
 Difficulty	Solved
-🟢 Easy	9
-🟡 Medium	2
-🔴 Hard	0
+<p>🟢 Easy	9</p>
+<p>🟡 Medium	2</p>
+<p>🔴 Hard	0</p>
 ---
 
 💡 Approaches I Use
