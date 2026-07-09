@@ -16,7 +16,7 @@ Difficulty	Solved
 Brute Force → understand the problem first
 HashMap → for fast O(1) lookups
 
-🛠️ Language
+🛠️ Language I Use
 
 c++
 
