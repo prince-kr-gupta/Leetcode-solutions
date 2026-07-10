@@ -22,15 +22,14 @@ c++
 
 📅 Consistency Goal
 
-
 ✅ Solve at least 1 problem per day
 ✅ Push solution to GitHub daily
 ✅ Maintain GitHub streak
 
 🙋‍♂️ About Me
-Prince Kumar Gupta 
+Prince Kumar Gupta
 
 
 🎯 Goal: Improve DSA skills and crack coding interviews
-🔗 LeetCode Profile: https://leetcode.com/u/Prince_Kumar__Gupta/
+🔗 LeetCode Profile: https://leetcode.com/u/prince_kr_gupta
 ⭐ Star this repo if you find it helpful!
