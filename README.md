@@ -31,6 +31,8 @@ c++
 <p>Prince Kumar Gupta</p>
 
 
-<p>🎯 Goal: Improve DSA skills and crack coding interviews</p>
-<p>🔗 LeetCode Profile: https://leetcode.com/u/prince_kr_gupta</p>
-<p>⭐ Star this repo if you find it helpful!</p>
+🎯 Goal: Improve DSA skills and crack coding interviews
+  
+🔗 LeetCode Profile: https://leetcode.com/u/prince_kr_gupta
+
+⭐ Star this repo if you find it helpful!
