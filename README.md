@@ -9,7 +9,7 @@ Difficulty	Solved
 <p>🔴 Hard	0</p>
 
 
-💡 Approaches I Use
+<p>💡 Approaches I Use</p>
 
 
 Brute Force → understand the problem first
