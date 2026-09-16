@@ -2,7 +2,7 @@
 🧠 LeetCode Solutions
 A collection of my LeetCode problem solutions written in C++, organized by difficulty. Updated daily as I practice and improve.
 
-Difficulty	Solved
+Total	Solved
 
 <p>🟢 Easy	24</p>
 <p>🟡 Medium	4</p>
