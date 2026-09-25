@@ -1,0 +1,45 @@
+class Solution {
+public:
+set<string> solve(string &s,int &i){
+ set<string> result;
+         set<string> current = {""};
+
+         while(i < s.size() && s[i] != '}') {
+            if(s[i] == ','){
+                result.insert(current.begin(),current.end());
+                current = {""};
+                i++;
+            }
+            else {
+                set<string> temp;
+                if(s[i] == '{'){
+                    i++;
+                    temp = solve(s,i);
+                    i++;
+                }
+                else{
+                    temp.insert(string(1,s[i]));
+                    i++;
+                }
+                set<string> newCurrent;
+
+                for(string a: current) {
+                    for(string b : temp) {
+                        newCurrent.insert(a + b);
+                    }
+                }
+                current = newCurrent;
+            }
+         }
+         result.insert(current.begin(),current.end());
+
+         return result;
+    }
+    vector<string> braceExpansionII(string expression) {
+
+        int i = 0;
+        set<string> ans = solve(expression, i);
+        return vector<string>(ans.begin(),ans.end());
+    }
+    
+};
