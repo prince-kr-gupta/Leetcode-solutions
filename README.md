@@ -4,7 +4,7 @@ A collection of my LeetCode problem solutions written in C++, organized by diffi
 
 Total	Solved
 
-<p>🟢 Easy	41</p>
+<p>🟢 Easy	42</p>
 <p>🟡 Medium	12</p>
 <p>🔴 Hard	3</p>
 
