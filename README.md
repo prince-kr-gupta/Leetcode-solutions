@@ -6,7 +6,7 @@ Total	Solved
 
 <p>🟢 Easy	48</p>
 <p>🟡 Medium	20</p>
-<p>🔴 Hard	6</p>
+<p>🔴 Hard	7</p>
 
 
 <p>💡 Approaches I Use</p>
