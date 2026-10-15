@@ -1,0 +1,20 @@
+class Solution {
+public:
+    int sumCounts(vector<int>& nums) {
+        int ans = 0;
+
+        for(int i = 0;i<nums.size();i++) {
+            int freq[101] = {};
+            int cnt = 0;
+
+            for(int j = i;j<nums.size();j++){
+                if(freq[nums[j]] == 0) cnt++;
+
+                freq[nums[j]]++;
+
+                ans += cnt * cnt;
+            }
+        }
+        return ans;
+    }
+};
