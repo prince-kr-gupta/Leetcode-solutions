@@ -1,0 +1,44 @@
+class Solution {
+public:
+    int minSwaps(vector<int>& nums) {
+    int n = nums.size();
+   vector<pair<int,int>> ans;
+
+  for(int i = 0;i<n;i++) {
+    int x = nums[i];
+   int sum = 0;
+      while(x > 0){
+        sum += x %10;
+        x = x/10;
+        
+      }
+      ans.push_back({sum,nums[i]});
+    }
+  
+  sort(ans.begin(),ans.end());
+
+  vector<int> target;
+
+  for(int i = 0;i < n;i++) {
+    target.push_back(ans[i].second);
+  }
+  unordered_map<int,int>pos;
+  for(int i = 0;i<n;i++) {
+    pos[nums[i]] = i;
+  }
+int count = 0;
+for(int i = 0;i < n;i++) {
+  if(nums[i] != target[i]) {
+
+    int j = pos[target[i]];
+
+    pos[nums[i]] = j;
+    pos[target[i]] = i;
+    
+    swap(nums[i],nums[j]);
+    count++;
+  }
+}
+return count;
+    }
+};
